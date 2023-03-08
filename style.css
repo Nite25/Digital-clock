@@ -1,0 +1,39 @@
+html{
+  background-image:url("https://i.stack.imgur.com/90nGa.jpg");
+  font-family:system-ui;
+  color:black;
+}
+#time{
+position:absolute;
+font-size:10rem;
+ width:45%;
+  height:20%;
+  box-sizing:border-box;
+  left:31.8%;
+  top:36.5%;
+
+}
+
+#shd{
+  font-size:17px;
+  box-sizing:border-box;
+  position:absolute;
+  left:45%;
+}
+#flag{
+  position:relative;
+  left:2%;
+}
+#day{
+  font-size:2.5em;
+  position:absolute;
+  top:63%;
+  left:41%;
+}
+#tte{
+  width:2%;
+  height:2%;
+}
+#greeting{
+  font-size:150%;
+}

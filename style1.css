@@ -1,0 +1,123 @@
+body{
+  background-image:url("https://i.stack.imgur.com/90nGa.jpg");
+  color:black;
+  display:flex;
+  flex-direction:column;
+  background-position: 20% 15%;
+  margin:0;
+  height:100vh;
+}
+#main_heading{
+  background-color:hsla(0,0%,0%,0.3);
+  font-size:3vh;
+  font-family:system-ui;
+  box-shadow: -2px -2px 50px -2px black;
+  border-radius: 0px 0px 25px 25px;
+  box-sizing:border-box;
+  margin-bottom:0.3%;
+  display:flex;
+  align-items:center;
+  height:20vh;
+}
+#mainhd{
+    margin:auto;
+  }
+#m1{
+  text-shadow:4px 2px grey;
+}
+#greeting{
+  font-size:7vh;
+  font-family:Comic Sans MS;
+  font-weight: 650;
+  margin:auto;
+}
+#tte{
+  text-align:down;
+}
+#main{
+  display:flex;
+  flex-direction:column;
+  border:1px solid hsla(0, 0%, 85%,0.2);
+  background-color:hsla(0, 0%, 85%,0.4);
+  gap:1px;
+  width:50%;
+  align-items: center;
+  flex-wrap:wrap;
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-family:serif;
+  margin:auto;
+/*   height:75vh; */
+  padding-top: 1vh;
+}
+#shd{
+  font-size:3vw;
+}
+#time{
+  font-size:12vw;
+}
+#day{
+  font-size:4vw;
+}
+#flag{
+  width:10vw;
+  height:18vh;
+}
+#greeting{
+  animation-name:gre;
+  animation-duration:2s;
+  animation-timing-function:linear;
+/*   animation-iteration-count: infinite; */
+font-family:ui-sans-serif;
+}
+#tte{
+  width:2vw;
+  height:2vw;
+}
+/* #tte{
+  animation-name:gre;
+  animation-duration:2s;
+  animation-timing-function:linear;
+} */
+/* @keyframes gre{
+  0%{
+    
+  }
+  25%{
+   
+  }
+  75%{
+  
+  }
+  100%{
+ 
+  }
+}
+ */
+
+@media (orientation: portrait) {
+  #main {
+    display:flex;
+    flex-direction: column;
+    width:90vw;
+    height:55vh;
+    margin-top:0.5vh;
+  }
+  #flag{
+    width:25vh;
+    height:20vh;
+  }
+  #greeting{
+  font-size:4vh;
+  margin:auto;
+}
+  #shd{
+  font-size:5vh;
+}
+#time{
+  font-size:10vh;
+}
+#day{
+  font-size:5vh;
+}
+}
